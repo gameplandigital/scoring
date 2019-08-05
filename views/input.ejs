@@ -81,6 +81,9 @@
 	    	.solutions {
 	    		/*background-color: #ffee58;*/
 	    	}
+			.itago {
+				display: none;
+			}
 	    </style>
 	</head>
 	<body>
@@ -101,7 +104,7 @@
 					        <th>7</th>
 					        <th>8</th>
 					        <th>9</th>
-					        <th>10</th>
+					        <th class="itago">10</th>
 					        <th>TOTAL</th>
 					      </tr>
 					    </thead>
@@ -117,7 +120,7 @@
 					        <td class="score"><input type="number" value="0" id="g_6" onkeyup="scoreCompute('game', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="g_7" onkeyup="scoreCompute('game', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="g_8" onkeyup="scoreCompute('game', this.value)" /></td>
-					        <td class="score"><input type="number" value="0" id="g_9" onkeyup="scoreCompute('game', this.value)" /></td>
+					        <td class="score itago"><input type="number" value="0" id="g_9" onkeyup="scoreCompute('game', this.value)" /></td>
 					        <td class="score" id="g_total">0</td>
 					      </tr>
 					      <tr class="plan">
@@ -131,7 +134,7 @@
 					        <td class="score"><input type="number" value="0" id="p_6" onkeyup="scoreCompute('plan', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="p_7" onkeyup="scoreCompute('plan', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="p_8" onkeyup="scoreCompute('plan', this.value)" /></td>
-					        <td class="score"><input type="number" value="0" id="p_9" onkeyup="scoreCompute('plan', this.value)" /></td>
+					        <td class="score itago"><input type="number" value="0" id="p_9" onkeyup="scoreCompute('plan', this.value)" /></td>
 					        <td class="score" id="p_total">0</td>
 					      </tr>
 					      <tr class="marketing">
@@ -145,7 +148,7 @@
 					        <td class="score"><input type="number" value="0" id="m_6" onkeyup="scoreCompute('marketing', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="m_7" onkeyup="scoreCompute('marketing', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="m_8" onkeyup="scoreCompute('marketing', this.value)" /></td>
-					        <td class="score"><input type="number" value="0" id="m_9" onkeyup="scoreCompute('marketing', this.value)" /></td>
+					        <td class="score itago"><input type="number" value="0" id="m_9" onkeyup="scoreCompute('marketing', this.value)" /></td>
 					        <td class="score" id="m_total">0</td>
 					      </tr>
 					      <tr class="solutions">
@@ -159,7 +162,7 @@
 					        <td class="score"><input type="number" value="0" id="s_6" onkeyup="scoreCompute('solutions', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="s_7" onkeyup="scoreCompute('solutions', this.value)" /></td>
 					        <td class="score"><input type="number" value="0" id="s_8" onkeyup="scoreCompute('solutions', this.value)" /></td>
-					        <td class="score"><input type="number" value="0" id="s_9" onkeyup="scoreCompute('solutions', this.value)" /></td>
+					        <td class="score itago"><input type="number" value="0" id="s_9" onkeyup="scoreCompute('solutions', this.value)" /></td>
 					        <td class="score" id="s_total">0</td>
 					      </tr>
 					    </tbody>
